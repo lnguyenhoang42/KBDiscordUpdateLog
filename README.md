@@ -1,7 +1,7 @@
 ## Setting up config
 Make sure to get [.Net 10](https://aka.ms/dotnet-core-applaunch?framework=Microsoft.NETCore.App&framework_version=10.0.0&arch=x64&rid=win-x64&os=win10)
 
-First is to extract the zip into a folder.
+First is to extract the zip/rar into a folder.
 
 Run 'KBDiscordUpdateLog.exe' inside the folder
 
