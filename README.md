@@ -41,3 +41,5 @@ use /log to log messages into an embed
 Note will be publish like below
 
 ![img2.png](img2.png)
+
+### Make sure to log atleast once per day as there a character limit on the embed field
