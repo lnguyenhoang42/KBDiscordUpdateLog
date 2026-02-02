@@ -29,6 +29,8 @@ More log channels can be added by simply adding more of the above into the LogCh
 
 To get a channel id for the property above: Go into your discord settings > Advanced > Turn on developer mode, now right click on the desired channel and Click 'Copy Channel ID' and you can use the ID for 'ChannelLog' or 'ChannelPublish'
 
+When no command show up make sure to reset your client with Ctrl + R
+
 ## Message logging
 Any new message since bot first start up will be logged
 
