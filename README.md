@@ -1,11 +1,9 @@
 ## Setting up config
 Make sure to get [.Net 10](https://aka.ms/dotnet-core-applaunch?framework=Microsoft.NETCore.App&framework_version=10.0.0&arch=x64&rid=win-x64&os=win10)
 
-First is to extract the zip into a folder, go into the folder and copy it path/address as text
+First is to extract the zip into a folder.
 
-Open up Command Prompt and type 'cd ' and then Ctrl + V to paste the address and press Enter
-
-Simply type in 'KBDiscordUpdateLog.exe' and then press Enter to run it
+Run 'KBDiscordUpdateLog.exe' inside the folder
 
 A 'Config' folder should appear as the prompt saying 'Token or config is empty'
 
