@@ -13,7 +13,7 @@ Open up 'config.json' in any text editor:
  - `Token` is the bot token you need to input from discord developer portal of the chosen bot(might be too lengthy to explain this process).
  - `ChannelLog` the channel where text message will be recorded and to be publish.
  - `ChannelPublish` the channel where the publish will happen.
-
+ - `MessageLogLimit` how many messages should the bot check starting from most recent message
 ```json
 {
   "ChannelLog": "",
