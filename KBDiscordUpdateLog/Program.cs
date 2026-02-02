@@ -26,6 +26,7 @@ internal abstract class Program
         if (kbCfg is null or { Token: "" or null })
         {
             Console.WriteLine("Token or config is empty");
+            await Task.Delay(-1);
             return;
         }
         
