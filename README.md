@@ -9,8 +9,12 @@ A 'Config' folder should appear as the prompt saying 'Token or config is empty'
 
 Open up 'config.json' in any text editor:
  - `Token` is the bot token you need to input from discord developer portal of the chosen bot(might be too lengthy to explain this process).
- - `ChannelLog` the channel where text message will be recorded and to be publish.
- - `ChannelPublish` the channel where the publish will happen.
+ - `OperatorIds` your user id obtained from right clicking your profile and 'Copy User Id' with developer mode on in Settings > Advanced, allow usage of the `/log` command. Example below on how to add:
+```json
+"OperatorIds": [
+  "1234567890",
+],
+```
  - `MessageLogLimit` how many messages should the bot check starting from most recent message
 ```json
 {
@@ -20,6 +24,10 @@ Open up 'config.json' in any text editor:
 },
 ```
 More log channels can be added by simply adding more of the above into the LogChannel, Reminder to have a ',' at the end of every array.
+ - `ChannelLog` the channel where developer is posting log/update
+ - `ChannelPublish` the channel where bot publish log
+
+To get a channel id for the property above: Go into your discord settings > Advanced > Turn on developer mode, now right click on the desired channel and Click 'Copy Channel ID' and you can use the ID for 'ChannelLog' or 'ChannelPublish'
 
 ## Message logging
 Any new message since bot first start up will be logged
